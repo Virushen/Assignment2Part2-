@@ -1,0 +1,102 @@
+/*
+Name: Virushen Tharmarajah
+File: style.css
+Date: May 25th,2025
+Description: CSS styles for birdwatching page.
+*/
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+
+header {
+    height: 150px;
+}
+
+header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #f8f8f8;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+h1 {
+    padding: 50px 0 10px 0;
+    margin: 0;
+    font-size: 2em;
+    color: #2e2e2e;
+}
+
+nav {
+    clear: both;
+    background-color: #4f4f4f;
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #d3d3d3;
+}
+
+nav span {
+    color: #d3d3d3;
+}
+
+main {
+    display: flex;
+    margin: 20px 0;
+}
+
+article {
+    flex: 3;
+    padding-right: 20px;
+}
+
+aside {
+    flex: 1;
+    border-left: 1px solid #4f4f4f;
+    padding-left: 20px;
+}
+
+aside img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4f4f4f;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+    clear: both;
+}
+
+footer a {
+    color: white;
+}
